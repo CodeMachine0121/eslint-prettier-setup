@@ -4,9 +4,10 @@ module.exports = {
         "es2021": true
     },
     "extends": [
-        "eslint:recommended",
         "plugin:@typescript-eslint/recommended",
-        "plugin:vue/vue3-essential"
+        "plugin:vue/vue3-essential",
+        "eslint:recommended", // 使用 ESLint 推薦規範
+        "@vue/prettier" //使用 prettie"format": "prettier --write \"src/**/*.{js,vue,scss}\""r
     ],
     "overrides": [
         {
