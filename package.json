@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "npm run lint && vite build",
+    "build": "npm run lint:code && vite build",
     "preview": "vite preview",
     "lint:code": "eslint --ext .js,.ts,.vue --fix src"
   },
