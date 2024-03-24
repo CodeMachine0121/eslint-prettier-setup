@@ -5,8 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vue-tsc && vite build",
-    "preview": "vite preview"
+    "build": "npm run lint && vite build",
+    "preview": "vite preview",
+    "lint:code": "eslint --ext .js,.ts,.vue --fix src"
   },
   "dependencies": {
     "vue": "^3.4.21"
